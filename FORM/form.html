@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+            <!-- The Input Tag is used to take the input from the user and all the input tags are wrapped inside the form tag  -->
+             <style>
+                .btn{
+                    width: 250px; 
+                    margin-left: 50px;
+                    background-color: rgb(120, 97, 234);
+                    border-radius: 5px;
+                    padding: 5px;
+                    font-size: 15px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                .btn:hover{
+                    background-color: rgb(84, 59, 207);
+                    cursor: pointer; 
+                     
+                }
+                .main{
+                    margin-left: 500px;
+                }
+             </style>
+</head>
+<body>  
+        <div class="main">
+    <fieldset style="width: 300px;">
+        <legend style="margin-left:120px;"><h1>Login Page</h1></legend>
+    <form action=""  >
+        <label for="user">Username :</label>
+        <input type="text" name="Username" id="user"> <br><br>
+
+        <label for="pass">Password :</label>    
+        <input type="password" name="Password" id="pass"> <br><br>
+
+        <label for="email">Email :</label>      
+        <input type="email" name="Email" id="email"> <br><br>
+
+        <label for="cont">Contact :</label>   
+        <input type="tel" name="Contact" id="cont"> <br><br>
+
+        <label for="dob">Date Of Birth :</label>   
+        <input type="datetime-local" name="DateOfBirth" id="dob"> <br><br>
+        
+        <label for="add">Address</label>
+        <textarea name="Address" id="add" cols="50" rows="5"></textarea>
+        
+        <label for="gender">Gender :</label>   
+        <input type="radio" name="gender" id="gender" value="Male">Male
+        <input type="radio" name="gender" id="gender" value="Female">Female
+        <input type="radio" name="gender" id="gender" value="Other">Other <br> <br>
+
+        <label for="">Hobbies :</label>
+        <input type="checkbox" value="swim" name="Hobbies">Swimming
+        <input type="checkbox" value="travelling" name="Hobbies">Travelling
+        <input type="checkbox" value="bike riding" name="Hobbies">Bike Riding <br>
+        <input type="checkbox" value="trekking" name="Hobbies">Trekking  <br><br>
+
+        <label for="">Degrees :</label>
+        <select name="" id="">
+            <option value="">Btech</option>
+            <option value="">BSC</option>
+            <option value="">BCS</option>
+            <option value="">BCA</option>
+            <option value="">BE</option>
+        </select> <br> <br>
+
+
+        <button action="submit" onclick="" class="btn">Login</button>
+
+    </form>
+</fieldset>
+</div>
+
+</body>
+</html>
