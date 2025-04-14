@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Paradise Menu</title>
+    <title>Menu Card</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,10 +43,18 @@
             margin-bottom: 10px;
             border-radius: 50%;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
         }
 
         .logo-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(200, 76, 26, 0.7);
+        }
+        .imgg{
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .imgg:hover {
             transform: scale(1.05);
             box-shadow: 0 6px 20px rgba(200, 76, 26, 0.7);
         }
@@ -167,10 +175,10 @@
             </div>
 
 
-            <img src="./img/biryani1.jpg" alt="Biryani 1" style="margin-top: 60px;">
-            <img src="./img/biryani2.jpg" alt="Biryani 2">
-            <img src="./img/biryani3.jpg" alt="Biryani 3">
-            <img src="./img/afgan.jpg" alt="Starters">
+            <img src="./img/biryani1.jpg" alt="Biryani 1" style="margin-top: 60px;" class="imgg">
+            <img src="./img/biryani2.jpg" alt="Biryani 2"  class="imgg">
+            <img src="./img/biryani3.jpg" alt="Biryani 3"  class="imgg">
+            <img src="./img/afgan.jpg" alt="Starters"  class="imgg">
         </div>
     </div>
 </body>
