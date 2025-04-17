@@ -1,0 +1,30 @@
+#bmw{
+    background-color: aqua;
+    text-align: center;
+}
+#cbr{
+    background-color: antiquewhite;
+    text-align: center;
+}
+#zx10r{
+    text-align: center;
+    background-color: aquamarine;
+}
+    #bmw,#cbr,#zx10r{
+         margin-top: 10px;
+         color: blueviolet;
+         font-family: Arial, Helvetica, sans-serif;
+}
+ h1{
+    font-size: 50px;
+ }
+    .bike{ 
+        
+    }
+    .web{
+        background-color: bisque;
+        color: rgb(0, 94, 255);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+    
