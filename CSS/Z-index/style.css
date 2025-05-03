@@ -1,0 +1,20 @@
+.stickybox{
+    height: 200px;
+    width: 500px;
+    background-color: royalblue;
+}
+
+.stickybox img{
+    height: inherit;
+    width: inherit;
+    filter: blur(2px);
+}
+.stickybox h1{
+    position: absolute;
+    font-size: 60px;
+    top: 20px;
+    left: 100px;
+    z-index: 1;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px rgb(1, 1, 1);
+}

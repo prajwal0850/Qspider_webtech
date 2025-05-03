@@ -1,0 +1,26 @@
+
+        /* This is Combinator selector inside it this is the decendant selector  */
+
+*{
+    margin: px;
+    padding: 5px;
+}
+
+main h1{
+    background-color: aqua;
+}
+main aside{
+    background-color: aquamarine;
+}
+main section{
+        background-color: bisque;
+}
+main article{
+    color: rgb(255, 140, 0);
+}
+main footer{
+        background-color: blueviolet;
+}
+main {
+    color: blue;
+}

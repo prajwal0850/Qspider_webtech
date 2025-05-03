@@ -1,0 +1,95 @@
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: rgba(9, 9, 6, 0.885);
+    border-radius: 40px;
+    position: sticky;
+    top: 20px;
+}
+.btn{
+    height:30px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: rgb(48, 48, 186);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(49, 47, 47);
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   box-shadow: 1px 1px 5px 1px rgb(181, 172, 172);
+   transition: 1s;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.button{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+.navbar img{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline;
+    right: 0;
+    gap: 10px;
+    margin-left: 60px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar ul{
+    position: absolute;
+    right: 300px;
+    top: 10px;
+}
+.navbar li:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+body{
+    height:16000px;
+}
+.sticky{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(194, 207, 203, 0.767);
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px 2px
+}
+.sticky img{
+    position: absolute;
+    left: 20px;
+    top:20px;
+}
+.sticky h2{
+    position: absolute;
+    left: 70px;
+    top:10px;
+    font-size: 19px;
+}
+.sticky h3{
+    position: absolute;
+    left: 35px;
+    top:60px;
+    font-size: 19px;
+}
+.text{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  text-transform: capitalize;
+  text-align: justify;
+  margin-top: 40px;
+}

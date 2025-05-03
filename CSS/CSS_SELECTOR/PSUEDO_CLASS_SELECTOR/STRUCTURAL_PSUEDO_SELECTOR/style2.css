@@ -1,0 +1,18 @@
+section p:first-of-type{
+        background-color: antiquewhite;
+}
+section p:last-of-type{
+        background-color: rgb(203, 119, 10);
+}
+section div:first-of-type{
+        background-color: blueviolet;
+}
+section div:last-of-type{
+        background-color: rgb(112, 94, 129);
+}
+section p:nth-of-type(3){
+        background-color: aqua;
+}
+section div:nth-of-type(3){
+    background-color: blue;
+}                                                  
