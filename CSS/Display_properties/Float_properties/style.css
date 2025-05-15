@@ -1,0 +1,53 @@
+.card{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(orange,red);
+    padding: 20px;
+    border: 1px solid black;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.chavva{
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    outline: 3px solid black;
+    outline-offset:10px ;
+}
+.chavva:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.card p{
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+    left: 40px;
+    width: 650px;
+}
+.card button{
+    position: relative;
+    top: 30px;
+    background: linear-gradient(rgb(255, 0, 200),rgb(80, 1, 80));
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(106, 70, 2);
+    overflow: hidden;
+}
+.card button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.parent{
+    height: 500px;
+    width: 900px;
+    background:linear-gradient(blue,violet,pink);
+    display: flex;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(rgb(57, 175, 188),rgb(130, 60, 186),yellow);
+    border: 2px solid black;
+    transition: 1s;
+}
+.child:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background: linear-gradient(yellow,blue,black);
+}

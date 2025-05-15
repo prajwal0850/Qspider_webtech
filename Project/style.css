@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Salesforce Sans";
+}
+body{
+    height: 10000px;
+}
+.header{
+    height: 9rem;
+    width: 100%;
+}
+.header .navbar{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.header .navbar .first {
+    height: 6rem;
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header .navbar .first ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.header .navbar .first ul li{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 30px;
+   
+}
+.header .navbar .first ul a{
+   text-decoration: none;
+   color: #032D60;
+}
+.header .navbar .first ul a:hover{
+   color: #0176d3;
+   cursor: pointer;
+}
+.header .navbar .second{
+    height: 6rem;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    /* position: absolute; */
+    right: 20px;
+    padding-right: 20px;
+}
+.header .navbar .second button:last-child{
+        padding: 10px 30px 10px 30px;
+        background-color: #2E844A;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+
+}
+.header .navbar .second button:last-child:hover{
+    background-color: #1c3326;
+    cursor: pointer;
+}
+.header .navbar .second button:first-of-type{
+    font-weight: 600;
+    border: none;
+    font-size: 0.9rem;
+    background: none;
+    padding: 7px 10px 7px 10px;
+    color: #032D60;
+}
+.header .navbar .second i{
+    font-weight: 600;
+    border: none;
+    font-size: 0.9rem;
+    background: none;
+    padding: 7px 10px 7px 10px;
+    color: #032D60;
+}
+.header .navbar .second button:first-of-type:hover{
+    border-radius: 20px;
+    background-color: #eaf5fe;
+    color: #0176d3;
+    cursor: pointer;
+}
+.header .navbar .second i:hover{
+    border-radius: 20px;
+    background-color: #eaf5fe;
+    color: #0176d3;
+    cursor: pointer;
+}
+.agent{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #140075;
+    color: white;
+    position: relative;
+    top: 95px;
+}
+.agent p{
+    font-weight: 600;
+    padding: 20px;
+}
+.agent a{
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.intro-page{
+    margin-top: -1px;
+    height: 430px;
+    width: 100%;
+    background-image: url(./images/videobg.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.intro-page .content{
+    height: 380px;
+    width: 45%;
+    /* background-color: red; */
+}
+@font-face {
+font-family: myFirstFont;
+src: url(./fonts/ITCAvantGardePro-Md.ttf);
+}
+
+.intro-page .content h1{
+    font-size: 54px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #032D60;
+    letter-spacing: px;
+    line-height: 80px;
+    font-family: myFirstFont;
+}
+.intro-page .content p{
+    font-size: 17px;
+    padding-top:20px;
+    letter-spacing: 1px;
+
+}
+.intro-page .content button{
+    padding: 12px 32px;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    font-family:"Salesforce Sans",Arial,sans-serif ;
+    font-weight: 700;
+}
+.intro-page .content button:first-of-type{
+    background-color:#0176d3 ;  
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 14px 32px;
+}
+.intro-page .content button:first-of-type:hover{
+    background-color: #032D60;
+    cursor: pointer;
+}
+.intro-page .content button:last-of-type{
+    color: #0176d3;
+    background-color: #fff;
+    border: 2px solid #0176d3;
+    border-radius: 4px;
+}
+.intro-page .content button:last-of-type:hover{
+    background-color: #eaf5fe;
+    cursor: pointer;
+    color: black;
+}
+
+.intro-page .video{
+    height: 380px;
+    width: 45%;
+    /* background-color: #2E844A; */
+    position: relative;
+
+}
+    .intro-page .video video{
+        height: 390px;
+        width: 100%;
+        position: relative;
+        top: 40px;
+        border-radius: 20px;
+        
+    }
+
+    .intro-page .video i{
+        position: absolute;
+        color: white;
+        font-size: 60px;
+        z-index: 1;
+        top: 160px;
+        left: 260px;
+        border: 2px solid white;
+        padding: 25px 30px;
+        border-radius: 70%;
+        background-color: rgb(75, 73, 73);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chatbot{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 12px 32px 12px 24px;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        background: linear-gradient(90deg,#0447bb,rgb(106, 153, 235));
+        position: fixed;
+        right: 45px;
+        top: 660px;
+        z-index: 1;
+    }
+  .chatbot img{
+    border-radius: 50%;
+    padding-right: 10px;
+  }
+  .card-parent{
+    height: 100vh;
+    width: 100%;
+  }
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+
+  }
+  .card{
+    height: 370px;
+    width: 290px;
+    box-shadow: 0px 0px 25px 0px;
+    border-radius: 20px;
+  }
+  .card img{
+    height: 50%;
+    width: inherit;
+  }
+  .card h1{
+        font-family: myFirstFont;
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 20px;
+  }
+.card p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.card a{
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+}
