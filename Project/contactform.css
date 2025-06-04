@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Salesforce Sans";
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+font-family: myfirstFont;
+src: url(./fonts/ITCAvantGardePro-Md.ttf);
+}
+.form-parent{
+    height: 1000px;
+    width: 100%;
+    /* background:url(./images/company-contact-form-background.jpg2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.form-parent img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.form-parent .head{
+    position: absolute;
+    top: 50px;
+    font-size: 36px;
+    font-family: myfirstFont;
+    left: 230px;
+    color: #032D60;
+    font-weight: bold;
+}
+.parent{
+    height: 800px;
+    width: 70%;
+    position: relative;
+    top: 40px;
+}
+.form{
+    height: 580px;
+    width: 475px;
+    background-color: white;
+    padding: 30px;
+}
+.form h1{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 22px;
+
+}
+.form h1+p{
+    font-size: 15px;
+    font-family: "Salesforce Sans",Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+
+.form input{
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.form input:last-of-type{
+    width: 450px;
+}
+.form textarea{
+    margin: 5px;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.form p{
+    font-size: 12px;
+    display: block;
+    margin-left: 5px;
+}
+.form button{
+    padding: 12px 194px;
+    margin-top: 20px;
+    background-color: #0B5CAB; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+.form button:hover{
+    background-color: #04427f;
+    cursor: pointer;
+}
+.parent .call{
+    height: 300px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 20px;
+}
+.call h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.call a{
+    padding-top: 5px;
+    display: block;
+    color: #0B5CAB;
+    margin-top: 10px;
+}
+.call p{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.parent .Feedback{
+    position: absolute;
+    height: 150px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    right: 0;
+    padding-left: 20px;
+}
+.Feedback button{
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #0B5CAB; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+}
+.Feedback button:hover{
+    background-color: #04427f;
+    cursor: pointer;
+}
+.Feedback h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Feedback h2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.parent .Whatsapp{
+    position: absolute;
+    height: 280px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 490px;
+    right: 0;
+    padding-left: 20px;
+}
+.Whatsapp h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Whatsapp button{
+    padding: 12px 30px;
+    margin-top: 20px;
+    background-color: #19cb54; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+}
+.Whatsapp i{
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+    top: 73px;
+}
+.Whatsapp a{
+    color: #0B5CAB;
+}
+.Whatsapp p{
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* display: flex; */
+    height: 500px;
+}
+.footer .main a{
+    color: #0B5CAB  ;
+}
+.footer .main a i{
+    color: rgb(99, 99, 99);
+    margin-left: 5px;
+}
+.footer .main{
+     width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.first{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 200px;
+    padding-left: 120px;
+}
+.first .img img{
+    height: 50px
+
+}
+.first .icon i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.first .icon i:first-of-type{
+    margin-left: 0;
+}
+.first h2{
+    font-size: 20px;
+    font-family: "Salesforce Sans",Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 120px;
+
+}
+.second h2{
+    font-size: 15px;
+}
+.second ul li{
+    list-style:none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.second ul li a{
+    text-decoration: none;
+}
+
+
+.third{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.third h2{
+    font-size: 15px;
+}
+.third ul li{
+    list-style:none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.third ul li a{
+    text-decoration: none;
+}
+.fourth{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 120px;
+
+}
+.fourth h2{
+    font-size: 15px;
+}
+.fourth ul li{
+    list-style:none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.fourth ul li a{
+    text-decoration: none;
+}
+.footer .footer-sub{
+    height: 100px;
+    width: 100%;
+    background-color: #032D60;
+    position: absolute;
+    top: 435px;
+}
+.footer-sub button{
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #032D60;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-left: 50px;
+}
+.footer-sub button i{
+    padding-right: 10px;
+}

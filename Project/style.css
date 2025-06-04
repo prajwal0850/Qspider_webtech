@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Salesforce Sans";
+        font-family: "Salesforce Sans";
 }
 body{
     height: 10000px;
@@ -15,7 +15,7 @@ body{
     width: 100%;
     display: flex;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 .header .navbar .first {
     height: 6rem;
@@ -124,13 +124,13 @@ body{
     width: 100%;
     background-image: url(./images/videobg.webp);
     background-size: cover;
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: space-evenly;
 }
 .intro-page .content{
     height: 380px;
-    width: 45%;
+    width: 35%;
     /* background-color: red; */
 }
 @font-face {
@@ -139,7 +139,7 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
 }
 
 .intro-page .content h1{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 600;
     padding-top: 40px;
     color: #032D60;
@@ -150,7 +150,8 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
 .intro-page .content p{
     font-size: 17px;
     padding-top:20px;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
+    text-align:justify ;
 
 }
 .intro-page .content button{
@@ -160,6 +161,7 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
     font-size: 16px;
     font-family:"Salesforce Sans",Arial,sans-serif ;
     font-weight: 700;
+    margin-right: 30px;
 }
 .intro-page .content button:first-of-type{
     background-color:#0176d3 ;  
@@ -183,6 +185,7 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
     background-color: #eaf5fe;
     cursor: pointer;
     color: black;
+    border: 2px solid black;
 }
 
 .intro-page .video{
@@ -193,11 +196,12 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
 
 }
     .intro-page .video video{
-        height: 390px;
-        width: 100%;
-        position: relative;
-        top: 40px;
+        height: 330px;
+        width: 85%;
+        position: absolute;
+        top: 60px;
         border-radius: 20px;
+        right: 60px;
         
     }
 
@@ -209,8 +213,8 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
         top: 160px;
         left: 260px;
         border: 2px solid white;
-        padding: 25px 30px;
-        border-radius: 70%;
+        padding: 20px 27px;
+        border-radius: 2500%;
         background-color: rgb(75, 73, 73);
         display: flex;
         align-items: center;
@@ -226,7 +230,7 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
         font-size: 16px;
         border-radius: 10px;
         border: none;
-        background: linear-gradient(90deg,#0447bb,rgb(106, 153, 235));
+        background: linear-gradient(90deg,#0447bb,rgb(68, 136, 253));
         position: fixed;
         right: 45px;
         top: 660px;
@@ -237,41 +241,330 @@ src: url(./fonts/ITCAvantGardePro-Md.ttf);
     padding-right: 10px;
   }
   .card-parent{
-    height: 100vh;
+    height: 140vh;
     width: 100%;
+    top: 60px;
+    position: relative;
+    background:linear-gradient(white,rgba(200,233,247,0.274));
   }
   .cards{
+    position: relative;
+    height: 70vh;
+    width: 95%;
     display: flex;
+    top: 170px;
+    left: 30px;
     align-items: center;
-    justify-content: ;
+    justify-content: space-evenly;
 
   }
   .card{
-    height: 370px;
-    width: 290px;
-    box-shadow: 0px 0px 25px 0px;
-    border-radius: 20px;
+    height: 430px;
+    width: 280px;
+    box-shadow:1.1px 1.1px 10px 1px rgb(180, 178, 178);
+    border-radius:  20px;
+    background-color: white;
   }
   .card img{
-    height: 50%;
+    height: 38%;
     width: inherit;
+    border-radius: 20px;
   }
   .card h1{
         font-family: myFirstFont;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 600;
-        padding-top: 10px;
+        padding-top: 40px;
         padding-left: 20px;
+        color: #032D60;
+  }
+  .card h1:hover{
+    color: #0176d3;
+    cursor: pointer;
   }
 .card p{
+    width: 220px;
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 15px;
+    text-align: start;
+    letter-spacing: 1px;
 }
 .card a{
-    color: black;
+    color: #032D60;
     font-weight: 600;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 50px;
     display: block;
 }
+.card a:hover{
+    color: #0176d3;
+    cursor: pointer;
+    text-decoration: none;
+}
+.head{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    left: 19%;
+    width: 60%;
+}
+.head h1{
+    color: #032D60;
+    font-family: myFirstFont;
+    font-size: 40px;
+    text-align: center;
+}
+.btn button{
+    color: #0176d3;
+    background-color: #fff;
+    border: 2px solid #0176d3;
+    border-radius: 4px;
+    padding: 12px 32px;
+    position: relative;
+    z-index: 1;
+    top: 193px;
+    left: 42%;
+    font-size: 16px;
+    font-family:"Salesforce Sans",Arial,sans-serif ;
+    font-weight: 700;
+    margin-right: 30px;
+
+}
+.btn button:hover{
+    background-color: #eaf5fe;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.bg img{
+    background-size: cover;
+    height:450px; 
+    width:100%;
+    position: relative;
+    top:5px;
+}
+.freetrail{
+    margin-top: -1px;
+    height: 430px;
+    width: 35%;
+    position: relative;
+}
+.freetrail .info{
+    position: absolute;
+    top: 230px;
+    left:64%;
+    width: 100%;
+}
+.freetrail .info h1{
+    color: #032D60;
+    font-family: myFirstFont;
+    font-size: 48px;
+    text-align: center;
+    width:900px;
+    position: relative;
+}
+.freetrail p{
+     position: absolute;
+    top: 380px;
+    left:80%;
+    width: 750px;
+    text-align: center;
+    font-size: 18px;
+}
+.freetrail button{
+    padding: 12px 32px;
+    position: relative ;
+    top: 500px;
+    font-size: 16px;
+    font-family:"Salesforce Sans",Arial,sans-serif ;
+    font-weight: 700;
+    margin-right: 30px;
+    left: 115%;
+}
+
+.freetrail button:first-of-type{
+    background-color:#0176d3 ;  
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 14px 32px;
+}
+.freetrail button:first-of-type:hover{
+    background-color: #032D60;
+    cursor: pointer;   
+}
+.freetrail button:last-of-type{
+    color: #0176d3;
+    background-color: #fff;
+    border: 2px solid #0176d3;
+    border-radius: 4px;
+}
+.freetrail button:last-of-type:hover{
+        background-color: #eaf5fe;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.infotrail{
+    position: relative;
+}
+.info-1{
+    position: relative;
+}
+.info-1 .info-2{
+    position: absolute;
+    top: 600px;
+    left:64%;
+    width: 100%;
+}
+.info-1 .info-2 h1{
+    color: #032D60;
+    font-family: myFirstFont;
+    font-size: 40px;
+    text-align: center;
+    width:900px;
+    position: relative;
+}
+.info-1 p{
+    position: absolute;
+    top: 680px;
+    left:80%;
+    width: 730px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-parent1{
+    height: 100vh;
+    width: 100%;
+    top: 380px;
+    position: relative;
+  }
+  .cards1{
+    position: relative;
+    height: 70vh;
+    width: 95%;
+    display: flex;
+    top: 1px;
+    left: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .card1{
+    height: 470px;
+    width: 380px;
+    box-shadow:1.1px 1.1px 10px 1px rgb(180, 178, 178);
+    border-radius:  20px;
+    background-color: white;
+    position: relative;
+  }
+  .card1 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    left: 131px;
+
+  }
+  .card1 h1{
+        font-family: myFirstFont;
+        font-size: 24px;
+        font-weight: 600;
+        padding-top: 100px;
+        padding-left: 20px;
+        color: #032D60;
+        width: 320px;
+  }
+  .card1 h1:hover{
+    color: #0176d3;
+    cursor: pointer;
+  }
+.card1 p{
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+.card1 a{
+    color: #032D60;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 50px;
+    display: block;
+}
+.card1 a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.card1 h2{
+    width: inherit;
+    font-size: 12px;
+    padding: 10px 10px;
+    color: #032D60;
+    background-color: #1EA7FD33;
+    border-radius: 30px;
+}
+.card1 .content{
+    height: px;
+    width: 50px;
+    position: absolute;
+    top: 170px;
+    padding-left: 20px;
+}
+.card-parent1 button{
+    padding: 12px 32px;
+    position: relative ;
+    top: 500px;
+    font-size: 16px;
+    font-family:"Salesforce Sans",Arial,sans-serif ;
+    font-weight: 700;
+    margin-right: 30px;
+    left: 115%;
+     color: #0176d3;
+    background-color: #fff;
+    border: 2px solid #0176d3;
+    border-radius: 4px;
+}
+.products{
+    height: 800px;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+    top: 200px;
+}
+.products button{
+    padding: 16px 32px;
+    font-weight: 700;
+    border: 2px solid #032D60;
+    background: white;
+    color: #032D60;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 580px;
+}
+.products .gridbox{
+    height: 500px;
+    width: 90%;
+    background-color: #55e091;
+    position: relative;
+    left: 60px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 20px;
+
+
+}
+.products .gridbox .child{
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 0px 3px 4px;   
+    border-radius: 10px; 
+}
+
